@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MafiaListApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
+    
 }
